@@ -1,4 +1,4 @@
 alias ...='cd ../..' 
 alias home='cd ~'
 
-xtgz () { tar -xzf $1; }
+xtgz () { tar -xzf $@; }
